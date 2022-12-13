@@ -1,7 +1,7 @@
 {
-  "name": "BOTNAME",
+  "name": "harmony",
   "version": "1.0.9",
-  "description": "DESCRIPTION",
+  "description": "autism",
   "main": "index",
   "scripts": {
     "start": "node index.js"
@@ -9,7 +9,7 @@
   "engines": {
     "node": "12.18.4"
   },
-  "author": "AUTHOR",
+  "author": "Reficul",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^12.2.0",
