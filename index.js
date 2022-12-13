@@ -1,10 +1,10 @@
 //Variables
-var ownerID = "YOURID"
-const prefix = 'PREFIX'
+var ownerID = "320398018060746752"
+const prefix = 'harmy '
 
 //Packages
 const Discord = require('discord.js')
-const client = new Discord.Client({presence: {status: 'online', activity: {name: 'GAME'}}, disableMentions: 'everyone'})
+const client = new Discord.Client({presence: {status: 'online', activity: {name: 'spoon 4'}}, disableMentions: 'everyone'})
 
 //Ready
 client.once('ready', () => {console.log('---')})
