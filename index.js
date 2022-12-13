@@ -11,13 +11,11 @@ client.once('ready', () => {console.log('---')})
 
 //Message Event Listener
 client.on('message', message => {
-
-  message.reply("XD")
   
   try {
 
   //Anything past this line will not happen if the message is not sent in a guild (server)
-  if (!message.guild) return;
+  //if (!message.guild) return;
 
   //Anything past this line will not happen if the message is not sent by an user account.
   if (message.author.bot || message.system) return;
@@ -34,7 +32,7 @@ client.on('message', message => {
   if (message.attachments.size) {var msgAtt = Array.from(message.attachments.values(), x => x.url)}
 
   //Classic say command
-  if (msgCon.startsWith(prefix + 'say') && (argresult ||  msgAtt)) {
+  if (msgCon.startsWith(prefix + 'say') && (argresult || msgAtt)) {
     message.channel.send(argresult, {files: msgAtt})
     message.delete()}
 
