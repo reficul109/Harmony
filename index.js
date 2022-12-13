@@ -15,7 +15,7 @@ client.on('message', message => {
   try {
 
   //Anything past this line will not happen if the message is not sent in a guild (server)
-  //if (!message.guild) return;
+  if (!message.guild) return;
 
   //Anything past this line will not happen if the message is not sent by an user account.
   if (message.author.bot || message.system) return;
