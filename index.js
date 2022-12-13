@@ -12,6 +12,8 @@ client.once('ready', () => {console.log('---')})
 //Message Event Listener
 client.on('message', message => {
 
+  message.reply("XD")
+  
   try {
 
   //Anything past this line will not happen if the message is not sent in a guild (server)
