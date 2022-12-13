@@ -1,6 +1,6 @@
 //Variables
 var ownerID = "320398018060746752"
-const prefix = 'harmy '
+const prefix = 'harmy!'
 
 //Packages
 const Discord = require('discord.js')
